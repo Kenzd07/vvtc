@@ -1,0 +1,40 @@
+/* Style de base pour le formulaire */
+.div1 {
+    max-width: 400px; /* Largeur maximale du formulaire */
+    margin: 0 auto; /* Centrer le formulaire horizontalement */
+    padding: 20px; /* Espacement interne du formulaire */
+  }
+  
+  /* Style pour les labels */
+  label {
+    display: block; /* Afficher les labels sur une ligne différente */
+    margin-bottom: 5px; /* Espacement entre les labels */
+    font-weight: bold; /* Texte en gras pour les labels */
+  }
+  
+  /* Style pour les champs de texte */
+  input[type="text"],
+  input[type="email"],
+  input[type="datetime-local"] {
+    width: 100%; /* Largeur maximale des champs de texte */
+    padding: 10px; /* Espacement interne des champs de texte */
+    margin-bottom: 15px; /* Espacement entre les champs de texte */
+    border: 1px solid #ccc; /* Bordure fine autour des champs de texte */
+    border-radius: 5px; /* Coins arrondis pour les champs de texte */
+  }
+  
+  /* Style pour le bouton d'envoi */
+  input[type="submit"] {
+    background-color: #007bff; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    padding: 10px 20px; /* Espacement interne du bouton */
+    border: none; /* Pas de bordure autour du bouton */
+    border-radius: 5px; /* Coins arrondis pour le bouton */
+    cursor: pointer; /* Curseur de type main pour indiquer un lien cliquable */
+  }
+  
+  /* Style au survol du bouton d'envoi */
+  input[type="submit"]:hover {
+    background-color: #0056b3; /* Couleur de fond du bouton au survol */
+  }
+  
